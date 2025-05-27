@@ -44,22 +44,4 @@ export const ui = {
     about: 'Sobre',
     toc: 'Índice',
   },
-  'ru': {
-    title: 'Переверстка',
-    subtitle: 'Возрождая красоту типографики',
-    description: 'Retypeset — это статическая тема блога, основанная на фреймворке Astro. Вдохновленная Typography, Retypeset устанавливает новый визуальный стандарт и переосмысливает компоновку всех страниц, создавая опыт чтения, напоминающий печатные книги, возрождая красоту типографики. Детали в каждом взгляде, элегантность в каждом пространстве.',
-    posts: 'Посты',
-    tags: 'Теги',
-    about: 'О себе',
-    toc: 'Оглавление',
-  },
-  'pt': {
-    title: 'Retipografia',
-    subtitle: 'Reviva a beleza da tipografia',
-    description: 'Retypeset é um tema de blog estático baseado no framework Astro. Inspirado pela tipografia, o Retypeset estabelece um novo padrão visual e reimagina o layout de todas as páginas, criando uma experiência de leitura reminiscente de livros físicos, revivendo a beleza da tipografia. Cada detalhe é visível, elegância em cada espaço.',
-    posts: 'Artigos',
-    tags: 'Tags',
-    about: 'Sobre',
-    toc: 'Sumário',
-  },
 }

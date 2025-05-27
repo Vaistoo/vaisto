@@ -5,8 +5,6 @@ export const langMap: Record<string, string[]> = {
   'ja': ['ja-JP'],
   'en': ['en-US'],
   'es': ['es-ES'],
-  'ru': ['ru-RU'],
-  'pt': ['pt-BR'],
 }
 
 // Waline Language Map
@@ -17,8 +15,6 @@ export const walineLocaleMap: Record<string, string> = {
   'ja': 'jp-JP', // Waline uses jp-JP instead of ja-JP
   'en': 'en-US',
   'es': 'es-ES',
-  'ru': 'ru-RU',
-  'pt': 'pt-BR',
 }
 
 // Supported Languages
