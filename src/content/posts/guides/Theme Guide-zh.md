@@ -5,7 +5,7 @@ updated: 2025-04-13
 tags:
   - 博客主题
   - 指南
-pin: 99
+draft: true
 lang: zh
 abbrlink: theme-guide
 ---
@@ -26,7 +26,7 @@ site: {
   subtitle: 'Revive the beauty of typography'
   // 站点描述
   description: 'Retypeset is a static blog theme...'
-  // 使用 src/i18n/ui.ts 中的多语言标题/副标题/站点描述，而不是上方静态配置
+  // 使用 src/i18n/ui.ts 中的多语言标题/副标题/站点描述，替换以上静态配置
   i18nTitle: true // true, false
   // 作者名称
   author: 'radishzz'
@@ -73,16 +73,16 @@ color: {
 global: {
   // 默认语言
   // 站点根路径 '/' 的语言
-  locale: 'zh' // de, en, es, fr, ja, ko, pl, pt, ru, zh, zh-tw
+  locale: 'zh' // zh, zh-tw, ja, en, es, ru, pt
   // 更多语言
-  // 生成 '/en/' '/es/' 等多语言路径
+  // 生成 '/ja/' '/en/' 等多语言路径
   // 不要重复填写默认语言，可以为空 []
-  moreLocales: ['en', 'es', 'ja', 'ru', 'zh-tw'] // ['de', 'en', 'es', 'fr', 'ja', 'ko', 'pl', 'pt', 'ru', 'zh', 'zh-tw']
+  moreLocales: ['zh-tw', 'ja', 'en', 'es', 'ru'] // ['zh', 'zh-tw', 'ja', 'en', 'es', 'ru', 'pt']
   // 字体样式
   fontStyle: 'sans' // sans, serif
   // 文章日期格式
-  // YYYY-MM-DD, MM-DD-YYYY, DD-MM-YYYY, MONTH DAY YYYY, DAY MONTH YYYY
   // 2025-04-13, 04-13-2025, 13-04-2025, Apr 13 2025，13 Apr 2025
+  // YYYY-MM-DD, MM-DD-YYYY, DD-MM-YYYY, MONTH DAY YYYY, DAY MONTH YYYY
   dateFormat: 'YYYY-MM-DD'
   // 默认为所有文章开启目录
   toc: true // true, false
@@ -188,7 +188,6 @@ preload: {
   linkPrefetch: 'viewport' // hover, tap, viewport, load
   // 图床地址
   imageHostURL: 'https://image.radishzz.cc'
-  // 优化 Markdown 文件中的远程图片以避免布局抖动
   // 定制 google analytics js
   // 适用于路由 google analytics js 到自定义域名的用户
   customGoogleAnalyticsJS: ''
@@ -303,7 +302,7 @@ tags:
 draft: true/false
 pin: 1-99
 toc: true/false
-lang: de/en/es/fr/ja/ko/pl/pt/ru/zh/zh-tw
+lang: zh/zh-tw/ja/en/es/ru
 abbrlink: theme-guide
 ---
 ```
@@ -332,15 +331,15 @@ abbrlink: theme-guide
 # moreLocales: ['es', 'ru']
 
 # lang: ''
-src/content/posts/apple.md   ->  example.com/posts/apple/
-                             ->  example.com/es/posts/apple/
-                             ->  example.com/ru/posts/apple/
+src/content/posts/apple.md   -> example.com/posts/apple/
+                             -> example.com/es/posts/apple/
+                             -> example.com/ru/posts/apple/
 # lang: en
-src/content/posts/apple.md   ->  example.com/posts/apple/
+src/content/posts/apple.md   -> example.com/posts/apple/
 # lang: es
-src/content/posts/apple.md   ->  example.com/es/posts/apple/
+src/content/posts/apple.md   -> example.com/es/posts/apple/
 # lang: ru
-src/content/posts/apple.md   ->  example.com/ru/posts/apple/
+src/content/posts/apple.md   -> example.com/ru/posts/apple/
 ```
 
 #### abbrlink
