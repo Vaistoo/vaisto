@@ -1,6 +1,6 @@
 ---
 
-title: 在vercel上部署deeplx
+title: Deploy deeplx on Vercel
 published: 2025-05-26
 tags:
   - 有趣的项目
