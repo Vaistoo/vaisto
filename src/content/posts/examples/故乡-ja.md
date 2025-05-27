@@ -1,6 +1,6 @@
 ---
 title: 故郷
-published: 1921-01-10
+published: 2025-01-10
 tags:
   - ろじん
   - きんだいぶんがく

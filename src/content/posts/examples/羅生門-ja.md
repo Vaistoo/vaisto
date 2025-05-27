@@ -1,6 +1,6 @@
 ---
 title: 羅生門
-published: 1915-11-05
+published: 2025-01-05
 tags:
   - 芥川龍之介
   - きんだいぶんがく

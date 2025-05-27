@@ -2,8 +2,6 @@
 
 title: 在vercel上部署deeplx
 published: 2025-05-26
-
-updated: 2025-05-26
 tags:
   - 有趣的项目
   
@@ -30,7 +28,5 @@ fork作者的仓库，然后导入vercel部署即可。
    - 还有同目录的```translate.ts```改为```你要的名字.ts```     
 
 2. 修改完后去部署，你就可以使用你想要的路径了，xxx.vercel.app/你的路径。
-
-
 
 #### 😉

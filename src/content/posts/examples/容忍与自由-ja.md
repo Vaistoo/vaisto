@@ -1,6 +1,6 @@
 ---
 title: 寛容と自由
-published: 1959-03-16
+published: 2025-03-16
 tags:
   - 胡適
   - きんだいぶんがく

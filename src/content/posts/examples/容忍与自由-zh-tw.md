@@ -1,6 +1,6 @@
 ---
 title: 容忍與自由
-published: 1959-03-16
+published: 2025-03-16
 tags:
   - 胡適
   - 近代文學

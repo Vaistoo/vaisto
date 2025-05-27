@@ -1,6 +1,6 @@
 ---
 title: Tolerancia y Libertad
-published: 1959-03-16
+published: 2025-03-16
 tags:
   - Hu Shih
   - Literatura Moderna

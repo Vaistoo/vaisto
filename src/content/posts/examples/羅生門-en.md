@@ -1,6 +1,6 @@
 ---
 title: Rashomon
-published: 1915-11-05
+published: 2025-01-05
 tags:
   - Ryunosuke Akutagawa
   - Modern Literature

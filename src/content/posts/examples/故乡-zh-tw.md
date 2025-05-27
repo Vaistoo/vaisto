@@ -1,6 +1,6 @@
 ---
 title: 故鄉
-published: 1921-01-10
+published: 2025-01-10
 tags:
   - 魯迅
   - 近代文學
