@@ -114,7 +114,7 @@ export const themeConfig: ThemeConfig = {
     googleAnalyticsID: '',
     // umami analytics
     // https://cloud.umami.is
-    umamiAnalyticsID: '08d9937d-32ab-4ecd-b04a-585464accb12',
+    umamiAnalyticsID: 'f0de56ed-983b-4939-a5af-2b002efbe5c4',
     // follow verification
     // https://follow.is/
     follow: {
