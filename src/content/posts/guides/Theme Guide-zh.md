@@ -336,7 +336,7 @@ draft: true/false
 pin: 0-99
 toc: true/false
 lang: de/en/es/fr/ja/ko/pl/pt/ru/zh/zh-tw
-abbrlink: theme-guide
+abbrlink: theme-guide   <span style="color: red;">仅当文章处于根目录posts文件夹中时</span>
 ---
 ```
 
@@ -377,7 +377,7 @@ src/content/posts/apple.md   ->  example.com/ru/posts/apple/
 
 #### abbrlink
 
-自定义文章 URL。只能包含小写字母、数字和连字符 `-`。
+自定义文章 URL。只能包含小写字母、数字和连字符 `-`，<span style="color: red;">且文章处于posts文件夹中的子文件夹时abbrlink必填，不同文章的abbrlink必须不同，同一文字的不同语言abbrlink必须相同</span>。
 
 ```md
 # src/config.ts
