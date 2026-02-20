@@ -6,6 +6,7 @@ tags:
   - 有趣的项目
   
 lang: en
+abbrlink: Deploy deeplx on Vercel
 
 ---
 #### Preface
