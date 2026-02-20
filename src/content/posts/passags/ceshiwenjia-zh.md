@@ -5,6 +5,7 @@ tags:
   - 测试
   - 文字
 lang: zh
+abbrlink: ceshiwenjia
 ---
 
 It was bitter cold as I set forth, after an absence of more than twenty years, on a visit to my native heath over two thousand li away
