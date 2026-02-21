@@ -1,6 +1,6 @@
 ---
 title: 联想z5解锁bootloader
-published: 2025-05-25
+published: 2025-05-29
 lang: zh
 abbrlink: unlock-lenovo-z5-bootloader
 ---
