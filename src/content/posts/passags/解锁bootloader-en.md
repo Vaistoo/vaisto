@@ -1,5 +1,5 @@
 ---
-title: unlock lenovoz5 bootloader
+title: Unlock lenovoz5 bootloader
 published: 2025-05-29
 lang: en
 abbrlink: unlock-lenovo-z5-bootloader
